@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "307097576897",
+    "firebase_url": "https://instagram-758c8.firebaseio.com",
+    "project_id": "instagram-758c8",
+    "storage_bucket": "instagram-758c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307097576897:android:5cc3699580b31c3e8f3b40",
+        "android_client_info": {
+          "package_name": "com.matrix.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307097576897-bab4em0d9lt10u2ls33gvvgep4020s3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiB_tArHW-lzPIyoRkuKscdxPMJ1Eszss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307097576897-bab4em0d9lt10u2ls33gvvgep4020s3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

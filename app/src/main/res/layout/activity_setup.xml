@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_wall"
+    tools:context=".SetupActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/setup_profile_image"/>
+
+    <EditText
+        android:id="@+id/setup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_profile_image"
+        android:ems="10"
+        android:layout_marginTop="60dp"
+        android:hint="UserName"
+        android:textSize="25dp"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/username"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+    <EditText
+        android:id="@+id/setup_full_name"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_username"
+        android:ems="10"
+        android:hint="FullName"
+        android:textSize="25dp"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/name"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+    <EditText
+        android:id="@+id/setup_country_name"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_full_name"
+        android:ems="10"
+        android:hint="Country"
+        android:textSize="25dp"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/country"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_country_name"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/button"
+        android:text="Save" />
+
+</RelativeLayout>

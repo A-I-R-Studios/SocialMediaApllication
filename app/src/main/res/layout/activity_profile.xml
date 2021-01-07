@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".ProfileActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                android:weightSum="7"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_profile_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/profile"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+            <TextView
+                android:id="@+id/my_profile_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile Name"
+             android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/my_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user name"
+                android:layout_below="@+id/my_profile_full_name"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/my_profile_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hey there,i am using instagram"
+                android:layout_below="@+id/my_username"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/my_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textAlignment="center"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/my_profile_status"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/my_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+              android:layout_below="@+id/my_country"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/my_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+              android:layout_below="@+id/my_dob"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/my_relationship_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RelationShip Status"
+                android:layout_below="@+id/my_gender"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="false"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:weightSum="2">
+
+                        <Button
+                            android:id="@+id/my_post_button"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Posts"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"/>
+                        <Button
+                            android:id="@+id/my_friends_button"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Posts"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+</RelativeLayout>
